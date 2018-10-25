@@ -1,0 +1,21 @@
+Sostenibilidad:
+	economico <-> social <-> ambiental <-> economico .... bucle
+
+Plantear modelo que dependa de ciertas variables para cada sector de interes (ojala linealmente), pero cada sistema va a influir en los demás:
+
+Economico: (PIBr)k + DistribucionI*k1 + PIBpCapita*k2 +  CostoVida*k3 + Social*(kraro) + Ambiental*k4
+
+
+Social: k*Economico + Ambiental*k1 + Pension + Salud + Educación + Violencia
+
+
+Ambiental: k*Economico + Social*k1 + 
+
+
+
+Subloques: 
+
+	PIBpCapita = PIBr / # de poblacion          %% esta malo por que debe depender de variables melas
+	
+	Pension, salud, educacion dependen de impuestos, los trabajadores ilegales además no tienen los mismo derechos que tendrían en un trabajo legal.
+	Violencia depende 
