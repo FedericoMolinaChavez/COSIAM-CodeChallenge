@@ -11,7 +11,6 @@
 	- Dificultad para acceder a una licencia de cultivo.
 	- % de producción legal.
 	- % de producción ilegal.
-	otra
 
 Restricciones : 
 	- % deforestacion < total arboles
@@ -21,5 +20,4 @@ Restricciones :
 	- consumo <= capacidad máxima de producción energetica. 
 	- dificultad para acceder a una licencia != infinity
 	- dificultad para acceder a una licencia -> 0 => F(% de producción legal > % de produccion 	ilegal)
-hola
 	
