@@ -1,4 +1,4 @@
-﻿variables a modelar: 
+variables a modelar: 
 	- cantidad de hectareas de producción de marihuana.
 	- % de deforestación anual.
 	- caudal local.
@@ -12,7 +12,7 @@
 	- Dificultad para acceder a una licencia de cultivo.
 	- % de producción legal.
 	- % de producción ilegal.
-	- 
+	- % de impuestos a la producción de marihuana
 
 Restricciones : 
 	- % deforestacion < total arboles
@@ -21,13 +21,8 @@ Restricciones :
 	- caudal local < capacidad maxima del rio.
 	- consumo <= capacidad máxima de producción energetica. 
 	- dificultad para acceder a una licencia != infinity
-<<<<<<< HEAD
-	- dificultad para acceder a una licencia -> 0 => F(% de producción legal > % de produccion 		ilegal)
-
-=======
 	- dificultad para acceder a una licencia -> 0 => F(% de producción legal > % de produccion 	ilegal)
 	- precio de venta marihuana > precio de cosechar => G(cantidad de hectares de producción de marihuana > 0)
 	- % de producción ilegal > % de producción legal => consumo total energetico -> capacidad maxima de produccion energetica
-	- 
->>>>>>> 99bafb8cd1b2f2f55905201208818680c3bf85bb
-	
+	- precio de cosechar 
+	- G(% de impuestos a la producción de marihuana' > % de impuestos a la producción de marihuana) => % de producción ilegal' < % de produccion ilegal
