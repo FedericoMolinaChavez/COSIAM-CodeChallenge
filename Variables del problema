@@ -11,7 +11,7 @@ variables a modelar:
 	- Dificultad para acceder a una licencia de cultivo.
 	- % de producción legal.
 	- % de producción ilegal.
-
+	otra
 
 Restricciones : 
 	- % deforestacion < total arboles
