@@ -7,6 +7,6 @@ Existe una problematica clara e importante que compete especificamente a nuestro
 
 
 notas: 
-	Inicialmente Corinto contaba con un tipo de marihuana propia llamada "Corinto" para despues pasar 	a utilizar la marihuna tipo Creepy que le proveia una tasa interna de retorno mucho mayor a los 	inversionistas.
+	Inicialmente Corinto contaba con un tipo de marihuana propia llamada "Corinto" para despues pasar 	a utilizar la marihuna tipo Creepy que le proveia una tasa interna de retorno mucho mayor a los 		inversionistas.
 
 	energetica de occidente, es la empresa encargada de brindar la energia al sector
