@@ -4,5 +4,15 @@ import pandas as pd
 c = pd.read_csv("./Electrificacion.csv")
 #print(c.head())
 
-for i,row in c.iterrows():
-	print(i,row)
+meanUsers = c["Total suscriptores urbanos"].mean()
+meanUsage = c["Consumo promedio urbano oficial"].mean()
+
+print(meanUsers)
+print(meanUsage)
+
+CorintoRow = c[c.Municipio == "Corinto"]
+#print(CorintoRow)
+meanUsersR = CorintoRow["Total suscriptores urbanos"].mean()
+meanUsageR = CorintoRow["Consumo promedio urbano oficial"].mean()
+print(meanUsersR)
+print(meanUsageR)
