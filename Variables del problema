@@ -1,4 +1,4 @@
-variables a modelar: 
+﻿variables a modelar: 
 	- cantidad de hectareas de producción de marihuana.
 	- % de deforestación anual.
 	- caudal local.
@@ -20,5 +20,6 @@ Restricciones :
 	- caudal local < capacidad maxima del rio.
 	- consumo <= capacidad máxima de producción energetica. 
 	- dificultad para acceder a una licencia != infinity
-	- dificultad para acceder a una licencia -> 0 => F(% de producción legal > % de produccion ilegal)
+	- dificultad para acceder a una licencia -> 0 => F(% de producción legal > % de produccion 	ilegal)
+hola
 	
