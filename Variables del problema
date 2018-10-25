@@ -3,6 +3,7 @@
 	- % de deforestación anual.
 	- caudal local.
 	- consumo energetico de producción ilegal de marihuana.
+	- consumo total energetico.
 	- precio de cosechar una libra de marihuana.
 	- indice de criminalidad
 	- precio de venta marihuana
@@ -12,6 +13,7 @@
 	- % de producción legal.
 	- % de producción ilegal.
 	otra
+	- 
 
 Restricciones : 
 	- % deforestacion < total arboles
@@ -20,6 +22,13 @@ Restricciones :
 	- caudal local < capacidad maxima del rio.
 	- consumo <= capacidad máxima de producción energetica. 
 	- dificultad para acceder a una licencia != infinity
+<<<<<<< HEAD
 	- dificultad para acceder a una licencia -> 0 => F(% de producción legal > % de produccion 		ilegal)
 
+=======
+	- dificultad para acceder a una licencia -> 0 => F(% de producción legal > % de produccion 	ilegal)
+	- precio de venta marihuana > precio de cosechar => G(cantidad de hectares de producción de marihuana > 0)
+	- % de producción ilegal > % de producción legal => consumo total energetico -> capacidad maxima de produccion energetica
+	- 
+>>>>>>> 99bafb8cd1b2f2f55905201208818680c3bf85bb
 	
